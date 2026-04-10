@@ -1,6 +1,6 @@
 {
-  //"window.zoomLevel": 2,
-  //"editor.fontSize": 24,
+  //"window.zoomLevel": 0,
+  //"editor.fontSize": 16,
   "editor.hover.enabled": "on",
   "workbench.startupEditor": "none",
   "explorer.compactFolders": false,
