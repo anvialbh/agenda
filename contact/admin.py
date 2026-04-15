@@ -13,3 +13,7 @@ class ContactAdmin(admin.ModelAdmin):
     # list_editable = 'first_name', 'last_name', # para permitir a edição direta no admin
     list_display_links = 'id', 'first_name', 'last_name', # para permitir clicar no id para editar o contato
     
+@admin.register(models.Category)
+class CategoryAdmin(admin.ModelAdmin):
+    list_display = 'name',
+    ordering = 'name',
